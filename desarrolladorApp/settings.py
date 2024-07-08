@@ -28,9 +28,9 @@ DEBUG = True
 ALLOWED_HOSTS = ["https://tukapuntes.netlify.app"]
 #actualizado
 CORS_ALLOWED_ORIGINS = (
+    "https://tukapuntes.netlify.app",
     "http://localhost:4200",
     "http://127.0.0.1:8000",
-    "https://tukapuntes.netlify.app",
     
 
     
