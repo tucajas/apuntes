@@ -25,11 +25,12 @@ SECRET_KEY = 'django-insecure-i%$na8w(k8223snc_bq*d2it5rda9-9%hqloicnc7#+6l*)_)v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://tukapuntes.netlify.app"]
 
 CORS_ALLOWED_ORIGINS = (
     "http://localhost:4200",
     "http://127.0.0.1:8000",
+    "https://tukapuntes.netlify.app",
     
 )
 
